@@ -1,0 +1,108 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #004ba8;
+  background: linear-gradient(135deg, #004ba8 0%, #004ba8 10%, #0081a7 100%) fixed;
+  font-family: Avenir, Tahoma, Helvetica, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+  width: 600px;
+  max-width: calc(100vw - 10px);
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+
+.head .profile-image {
+  background-color: #eee;
+  width: 150px;
+  height: 150px;
+  background-image: url(resources/Marius.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px 0px 2px 0px;
+  margin: -75px auto 20px auto;
+}
+
+.head .name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.head .title {
+  font-size: 16px;
+  margin-top: 0;
+  font-weight: 550;
+}
+
+.city {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='72' viewport='0 0 100 100' style='fill:black;font-size:36px;'><text y='50%'>🦁</text></svg>") 16 0, auto;
+}
+
+button {
+  font-size: 18.60px;
+  margin: 15px auto;
+  width: 186.0px;
+  background-color: rgb(8, 114, 180);
+  border-color: rgb(8, 114, 180);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 48px;
+}
+
+.bio {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 80%;
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.social-links {
+  margin: 0 auto 30px;
+  display: flex;
+  max-width: 500px;
+  width: 80%;
+  justify-content: center;
+}
+
+.link {
+  padding: 0;
+  margin: 12.5px;
+  width: 36px;
+  height: 36px;
+  font-size: 30px;
+  line-height: 36px;
+  cursor: pointer;
+  display: block;
+  color: #999;
+}
+
+.link img {
+  height: 100%;
+  width: 100%;
+}
