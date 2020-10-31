@@ -1,0 +1,1 @@
+sap.ui.define(["com/myorg/myUI5App/controller/BaseController"],function(e){"use strict";return e.extend("com.myorg.myUI5App.controller.MainView",{})});

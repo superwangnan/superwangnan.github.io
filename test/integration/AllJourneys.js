@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5","com/myorg/myUI5App/test/integration/arrangements/Startup","com/myorg/myUI5App/test/integration/BasicJourney"],function(t,e){"use strict";t.extendConfig({arrangements:new e,pollingInterval:1})});
