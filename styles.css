@@ -15,6 +15,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.badge {
+  justify-content: left;
+}
 
 .profile-container {
   width: 600px;
